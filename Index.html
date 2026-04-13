@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratik | The Static Beast - Elite Athlete</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #000000;
+            --card-bg: #0a0a0a;
+            --accent-neon: #00ff88;
+            --text-primary: #ffffff;
+            --text-secondary: #888888;
+            --border-color: #1a1a1a;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 440px;
+            width: 100%;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 32px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+            box-shadow: 0 40px 100px rgba(0, 255, 136, 0.05);
+        }
+
+        .badge {
+            background: rgba(0, 255, 136, 0.1);
+            color: var(--accent-neon);
+            padding: 8px 16px;
+            border-radius: 100px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 24px;
+            display: inline-block;
+            border: 1px solid rgba(0, 255, 136, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin: 0;
+            letter-spacing: -2px;
+            background: linear-gradient(180deg, #fff 0%, #777 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .tagline {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 40px 0;
+        }
+
+        .stat-card {
+            background: #0d0d0d;
+            padding: 20px;
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+            text-align: left;
+            transition: 0.3s ease;
+        }
+
+        .stat-card:hover {
+            border-color: var(--accent-neon);
+            transform: translateY(-4px);
+        }
+
+        .stat-card span {
+            display: block;
+            color: var(--text-secondary);
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+
+        .stat-card b {
+            font-size: 1.25rem;
+            color: #eee;
+        }
+
+        .tips-section {
+            text-align: left;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .tips-section h3 {
+            color: var(--accent-neon);
+            font-size: 1rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .tip-item {
+            margin-bottom: 20px;
+            border-left: 2px solid var(--accent-neon);
+            padding-left: 16px;
+        }
+
+        .tip-item strong {
+            display: block;
+            font-size: 0.9rem;
+            margin-bottom: 4px;
+            color: #fff;
+        }
+
+        .tip-item p {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="badge">Elite Global Rank: 0.01%</div>
+        <h1>Pratik | The Static Beast</h1>
+        <p class="tagline">16-Year-Old Calisthenics Athlete</p>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span>90° Hold Goal</span>
+                <b>20 KG</b>
+            </div>
+            <div class="stat-card">
+                <span>Bicep Curl Goal</span>
+                <b>25 KG</b>
+            </div>
+            <div class="stat-card">
+                <span>Experience</span>
+                <b>1.5 Years</b>
+            </div>
+            <div class="stat-card">
+                <span>Athlete Age</span>
+                <b>16 Years</b>
+            </div>
+        </div>
+
+        <div class="tips-section">
+            <h3>Elite Athlete's Playbook</h3>
+            
+            <div class="tip-item">
+                <strong>Leave the Ego Behind</strong>
+                <p>A 20kg hold means nothing if your form is shaky. One clean, stable rep outweighs ten ego-driven sets. Control is the ultimate flex.</p>
+            </div>
+
+            <div class="tip-item">
+                <strong>Straight Arm Protocol</strong>
+                <p>Lock your elbows and engage your scapula like they're forged from steel. Power leakage happens when you lose tension—stay rigid.</p>
+            </div>
+
+            <div class="tip-item">
+                <strong>Tendon Integrity</strong>
+                <p>Muscles recover fast, but tendons take years. Respect the load on your joints. If you feel sharp pain, stop. Longevity beats speed.</p>
+            </div>
+
+            <div class="tip-item">
+                <strong>The Mental Lock</strong>
+                <p>Calisthenics is 90% nervous system. Visualize the hold, feel the tension in every fiber, and own the weight before you lift it.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
